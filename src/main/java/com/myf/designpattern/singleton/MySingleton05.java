@@ -8,7 +8,7 @@ package com.myf.designpattern.singleton;
  */
 public class MySingleton05 {
 
-    private static MySingleton05 INSTANCE;
+    private static volatile MySingleton05 INSTANCE;
 
     private MySingleton05(){
 
