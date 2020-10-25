@@ -3,6 +3,7 @@ package com.myf.designpattern.singleton;
  * @Author : myf
  * @Date : 2020/10/25 21:00
  * @Description : 不仅可以解决线程同步，还可以防止反序列化
+ * 枚举类没有构造方法
  * @Version : 1.0
  */
 public enum  MySingleton08 {
